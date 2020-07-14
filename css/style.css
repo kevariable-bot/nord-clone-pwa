@@ -1,0 +1,186 @@
+body {
+  background-color: #ECEFF4;
+}
+
+.nord-artic {
+  background-color: #81a1c1;
+}
+
+.nord-text {
+  color: #2E3440;
+}
+
+.polar-1 {
+  background-color: #2E3440;
+}
+
+.polar-2 {
+  background-color: #3B4252;
+}
+
+.polar-3 {
+  background-color: #434C5E;
+}
+
+.polar-4 {
+  background-color: #4C566A;
+}
+
+.frost-1 {
+  background-color: #8FBCBB;
+}
+
+.frost-2 {
+  background-color: #88C0D0;
+}
+
+.frost-3 {
+  background-color: #81A1C1;
+}
+
+.frost-4 {
+  background-color: #5E81AC;
+}
+
+.aurora-1 {
+  background-color: #BF616A;
+}
+
+.aurora-2 {
+  background-color: #D08770;
+}
+
+.aurora-3 {
+  background-color: #EBCB8B;
+}
+
+.aurora-4 {
+  background-color: #A3BE8C;
+}
+
+.aurora-5 {
+  background-color: #B48EAD;
+}
+
+.strom-1 {
+  background-color: #D8DEE9;
+}
+
+.strom-2 {
+  background-color: #E5E9F0;
+}
+
+.strom-3 {
+  background-color: #ECEFF4;
+}
+
+nav {
+  box-shadow: none;
+}
+
+.home {
+  width: 100%;
+}
+
+.home img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.home-body {
+  width: 100%;
+}
+
+.home .slider-body h3 {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.polar-body {
+  display: flex;
+  border-radius: 10px;
+}
+
+.polar-body > div {
+  flex-basis: 40%;
+}
+
+.polar-body > div > p {
+  height: 0px;
+  line-height: 0;
+  color: #2E3440;
+}
+
+.polar-body .box {
+  width: 100%;
+  height: 120px;
+}
+
+
+.strom-body {
+  display: flex;
+  border-radius: 10px;
+}
+
+.strom-body > div {
+  flex: 1;
+}
+
+.strom-body > div > p {
+  height: 0px;
+  line-height: 0;
+  color: #2E3440;
+}
+
+.strom-body .box {
+  width: 100%;
+  height: 120px;
+}
+
+.frost-body, .aurora-body {
+  display: flex;
+  border-radius: 10px;
+}
+
+.frost-body > div, .aurora-body > div {
+  flex-basis: 40%;
+}
+
+.frost-body > div > p, .aurora-body > div > p {
+  height: 0px;
+  line-height: 0;
+  color: #2E3440;
+}
+
+.frost-body .box, .aurora-body .box {
+  width: 100%;
+  height: 120px;
+}
+
+#nordify {
+  margin: 100px 0;
+}
+
+#linux {
+  margin-top: 50px;
+}
+
+#linux img {
+  width: 100%;
+}
+
+#linux #interesting {
+  margin: 30px 0;
+}
+
+#editor {
+  margin: 30px 0;
+}
+
+#editor img {
+  width: 100%;
+}
+
+#about {
+  height: 70vh;
+}
